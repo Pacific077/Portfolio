@@ -1,0 +1,60 @@
+#portfolio{
+    height: fit-content;
+}
+.prtcont{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: space-between;
+}
+@media screen and (max-width:1024px) {
+    .prtcont{
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+    }
+    .pcard {
+        height: 72vh;
+        width: 49%;
+        
+    }
+    #portfolio {
+        height: fit-content;
+    }
+    
+}
+
+@media screen and (max-width: 587px){
+.pcard {
+    height: 74vh;
+    width: 52%;
+}
+}
+@media screen and (max-width: 551px){
+
+    .pcard {
+        height: 74vh;
+        width: 65%;
+    }
+}
+@media screen and (max-width: 426px){
+
+    .pcard {
+        height: 74vh;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 376px){
+
+    .pcard {
+        height: 74vh;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 376px){
+
+    .pcard {
+        height: 74vh;
+        width: 100%;
+    }
+}

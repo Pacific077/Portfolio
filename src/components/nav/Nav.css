@@ -1,0 +1,57 @@
+nav{
+    border:1px solid #66FCF1;
+    background: transparent ;
+    display: flex;
+    gap:2rem;
+    /* margin: auto; */
+    /* margin-left: -5rem; */
+    width: max-content;
+    /* position: fixed; */
+    /* bottom: 2rem; */
+    /* left: 40%; */
+    padding: 0.3rem 1.3rem;
+    border-radius: 10rem;
+    z-index: 1000;
+}
+.navcont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+}
+nav a{
+    background:transparent;
+    padding: 0.9rem;
+}
+nav a:hover{
+    background-color: #1f2833;
+    border-radius: 100%;
+}
+nav a.active{
+    background-color: #1f2833;
+    border-radius: 100%;
+}
+.dark{
+    border: 1px solid #1f2833;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.light{
+    color: #c5c6c7;
+}
+@media screen and (max-width: 768px){
+    nav{
+        gap: 1rem;
+        /* margin: auto; */
+    }
+}
+@media screen and (max-width: 376px){
+
+    nav {
+        gap: 0rem;
+        /* margin: auto; */
+    }
+}

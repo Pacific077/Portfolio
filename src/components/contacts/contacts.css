@@ -1,0 +1,101 @@
+#contact{
+    height: fit-content;
+    margin-bottom: 8vh;
+}
+.ccar{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-between;
+    
+    width:12rem;
+}
+.fname{
+    border: 1px solid red;
+}
+.form{
+    background:transparent ;
+    display: flex;
+    flex-direction: column;
+}
+.Cocont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fname,.femail{
+    color: #66FCF1;
+    font-family: "Tektur", cursive;
+ width: 30rem;
+ height: 2.7rem;
+ border-radius: 0.7rem;
+ background-color: transparent;
+ border: 1.4px solid #66FCF1;
+ margin-bottom: 3rem;
+ padding-top: 0.4rem;
+ padding-left: 1rem;
+ outline: none;
+}
+.fname::placeholder,.femail::placeholder,textarea::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: "Tektur", cursive;
+}
+textarea{
+    width: 95.8%;
+    color: #66FCF1;
+    padding-top:0.4rem;
+    padding-left: 1rem;
+    border-radius: 0.7rem;
+    background-color: transparent;
+    border: 1.4px solid #66FCF1;
+    outline: none;
+    resize: none;
+}
+.submit{
+    width:20%;
+    margin-top: 1.4rem;
+    height: 2.6rem;
+    font-family: "Tektur", cursive;
+    border-radius: 0.8rem ;
+    cursor: pointer;
+}
+.contHead{
+    margin-bottom: 4vh;
+}
+
+@media screen and (max-width: 768px){
+    #contact {
+        height: fit-content;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width: 712px){
+    .Cocont {
+        display: block;
+        justify-content: space-evenly;
+    }
+    .ccar{
+        gap: 10vh;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 11rem;
+    }
+    textarea{
+        width: 30rem;
+    }
+    .form {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px){
+   .ip{
+    width: 90%;
+   }
+}

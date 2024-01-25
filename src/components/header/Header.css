@@ -1,0 +1,98 @@
+@keyframes updown {
+    to{
+        transform: translateY(10px);
+    }
+}
+.animg{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.1s;
+}
+.animl{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.3s;
+}
+.animi{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.5s;
+}
+.animf{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.7s;
+}
+header{
+    height: fit-content;
+    overflow: hidden;
+    padding-top: 7rem;
+}
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.button{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.socials{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2.2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.iconhover:hover{
+    color: #c5c6c7 !important;
+}
+.grey_color{
+    color: #c5c6c7 !important;
+}
+.blue_color{
+    color: #66FCF1 !important;
+}
+.socials::after{
+    content: '|';
+    width: 4px;
+    height: 2rem;
+    color: #66FCF1 !important;
+}
+.socials::before{
+    content: '|';
+    width: 4px;
+    height: 2rem;
+    color: #66FCF1 !important;
+}
+.me{
+    width: 20rem;
+    height: 30rem;
+    /* position: absolute; */
+    margin: auto;
+    justify-content: center;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+}
+.imgh{
+    height: 30rem;
+    background-size: cover;
+}
+    
+@media screen and (max-width: 425px){
+   header{
+    padding-top: 72px;
+   }
+   .imgh {
+    height: 23rem;
+    background-size: contain;
+   }
+}
+@media screen and (max-width: 376px){
+.me{
+    height: 26rem;
+}
+.about__me {
+    height: 58vw ;
+    width: 58vw;
+}
+}

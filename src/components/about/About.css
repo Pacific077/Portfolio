@@ -1,0 +1,131 @@
+.aboutme{
+    text-align: center;
+    margin-top: 0px;
+   
+}
+    
+.small{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#about{
+    margin-top: 5rem;
+    height: fit-content;
+}
+.about__container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.about__content{
+    width: 30vw;
+}
+.about__me{
+    height: 25vw;
+    width:25vw;
+    border-radius: 4rem;
+    background-size: cover;
+    background-image: linear-gradient(to right ,#51f0e5,#293848);
+    border: 1px solid #66fcf1;
+    /* overflow: hidden; */
+}
+.about__me img{
+    border-radius: 4rem;
+    transform: rotate(10deg);
+    transition: 0.6s ease;
+}
+.about__me img:hover{
+    transform: rotate(0deg);
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.info{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.gbt{
+  background-image: linear-gradient(to right ,#51f0e5,#293848);
+  text-shadow: 1px 1px 4px #66fcf1;
+  color: white !important;
+    
+}
+.gbt:hover{
+    background-image: linear-gradient(to right,black ,grey);
+    color: #66fcf1 !important;
+}
+@media screen and (max-width:1024px) {
+    .about__container {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:768px) {
+    .about__container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .about__me {
+        height: 30vw;
+        width: 30vw;
+    }
+    .about__content {
+        width: 41vw;
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width: 710px) {
+    .about__content {
+        width: 67vw;
+        margin-top: 10vh;
+    }
+    .card1 {
+        width: 15vw;
+        height: 15vw;
+    }
+}
+@media screen and (max-width: 694px) {
+    .about__me {
+        height: 40vw;
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 426px){
+
+    .about__me {
+        height: 50vw;
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 426px){
+
+    .card1 {
+        height: 28vw;
+        width: 28vw;
+    }
+    .about__content {
+        width: 90vw;
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width: 426px){
+
+    .about__me {
+        height: 60vw;
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 321px){
+
+    .about__me {
+        height: 70vw;
+        width: 70vw;
+    }
+}
+
